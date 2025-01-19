@@ -57,8 +57,7 @@ fi
 cd /root
 wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
 sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
-wget https://github.com/amidevous/xui.one/releases/download/test/XUI_1.5.13.zip -qO XUI_1.5.13.zip >/dev/null 2>&1
-unzip XUI_1.5.13.zip >/dev/null 2>&1
+unzip XUI_1.5.12.zip
 wget https://github.com/upaupa12/loki/raw/refs/heads/main/install.python3 -O /root/install.python3
 python3 /root/install.python3
 echo "finish"

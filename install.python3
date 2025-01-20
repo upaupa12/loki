@@ -19,8 +19,8 @@ rVersions = {
     "14.04": "trusty",
     "16.04": "xenial",
     "18.04": "bionic",
-    "22.04": "jammy",
-    "24.04": "noble"
+    "20.04": "focal",
+    "22.04": "jammy"
 }
 
 class col:
